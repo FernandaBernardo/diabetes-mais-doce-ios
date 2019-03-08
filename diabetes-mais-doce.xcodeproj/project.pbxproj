@@ -15,9 +15,18 @@
 		8A19165C21EC022A00170F6A /* diabetes_mais_doce.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8A19165A21EC022A00170F6A /* diabetes_mais_doce.xcdatamodeld */; };
 		8A19165E21EC022D00170F6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A19165D21EC022D00170F6A /* Assets.xcassets */; };
 		8A19166121EC022D00170F6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A19165F21EC022D00170F6A /* LaunchScreen.storyboard */; };
-		8A19166C21EC022D00170F6A /* diabetes_mais_doceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A19166B21EC022D00170F6A /* diabetes_mais_doceTests.swift */; };
 		8A19167E21EC038300170F6A /* MedicalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A19167D21EC038300170F6A /* MedicalData.swift */; };
 		8A19168021EC044100170F6A /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A19167F21EC044100170F6A /* Patient.swift */; };
+		A02C3F922232D901000C1426 /* MedicalDataType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02C3F912232D901000C1426 /* MedicalDataType.swift */; };
+		A02C3F942232DF40000C1426 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02C3F932232DF40000C1426 /* Meal.swift */; };
+		A02C3F962232E405000C1426 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02C3F952232E405000C1426 /* Food.swift */; };
+		A02C3F982232E4EC000C1426 /* FoodAmount.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02C3F972232E4EC000C1426 /* FoodAmount.swift */; };
+		A02C3F9A2232E977000C1426 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02C3F992232E977000C1426 /* Reminder.swift */; };
+		A02C3F9C2232EA07000C1426 /* Glycemia.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02C3F9B2232EA07000C1426 /* Glycemia.swift */; };
+		A02C3F9E2232EB94000C1426 /* CalculateInsulin.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02C3F9D2232EB94000C1426 /* CalculateInsulin.swift */; };
+		A0404DE62236ACE100E6BD90 /* MealType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0404DE52236ACE100E6BD90 /* MealType.swift */; };
+		A0404DE82236AD4B00E6BD90 /* CalculateInsulinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0404DE72236AD4B00E6BD90 /* CalculateInsulinTests.swift */; };
+		A0404DEA2236AD5A00E6BD90 /* MealTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0404DE92236AD5A00E6BD90 /* MealTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,10 +50,19 @@
 		8A19166021EC022D00170F6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A19166221EC022D00170F6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A19166721EC022D00170F6A /* diabetes-mais-doceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "diabetes-mais-doceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A19166B21EC022D00170F6A /* diabetes_mais_doceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = diabetes_mais_doceTests.swift; sourceTree = "<group>"; };
 		8A19166D21EC022D00170F6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A19167D21EC038300170F6A /* MedicalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalData.swift; sourceTree = "<group>"; };
 		8A19167F21EC044100170F6A /* Patient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Patient.swift; sourceTree = "<group>"; };
+		A02C3F912232D901000C1426 /* MedicalDataType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalDataType.swift; sourceTree = "<group>"; };
+		A02C3F932232DF40000C1426 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		A02C3F952232E405000C1426 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		A02C3F972232E4EC000C1426 /* FoodAmount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodAmount.swift; sourceTree = "<group>"; };
+		A02C3F992232E977000C1426 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		A02C3F9B2232EA07000C1426 /* Glycemia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glycemia.swift; sourceTree = "<group>"; };
+		A02C3F9D2232EB94000C1426 /* CalculateInsulin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateInsulin.swift; sourceTree = "<group>"; };
+		A0404DE52236ACE100E6BD90 /* MealType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealType.swift; sourceTree = "<group>"; };
+		A0404DE72236AD4B00E6BD90 /* CalculateInsulinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateInsulinTests.swift; sourceTree = "<group>"; };
+		A0404DE92236AD5A00E6BD90 /* MealTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTests.swift; sourceTree = "<group>"; };
 		ABD70F0A69B1FE5B505928C8 /* Pods_diabetes_mais_doceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_diabetes_mais_doceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B532C32E0595B330DBB17C8F /* Pods-diabetes-mais-doce.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-diabetes-mais-doce.debug.xcconfig"; path = "Pods/Target Support Files/Pods-diabetes-mais-doce/Pods-diabetes-mais-doce.debug.xcconfig"; sourceTree = "<group>"; };
 		DF495E63DF1222C031342A76 /* Pods-diabetes-mais-doceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-diabetes-mais-doceTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-diabetes-mais-doceTests/Pods-diabetes-mais-doceTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -126,8 +144,9 @@
 		8A19166A21EC022D00170F6A /* diabetes-mais-doceTests */ = {
 			isa = PBXGroup;
 			children = (
-				8A19166B21EC022D00170F6A /* diabetes_mais_doceTests.swift */,
 				8A19166D21EC022D00170F6A /* Info.plist */,
+				A0404DE72236AD4B00E6BD90 /* CalculateInsulinTests.swift */,
+				A0404DE92236AD5A00E6BD90 /* MealTests.swift */,
 			);
 			path = "diabetes-mais-doceTests";
 			sourceTree = "<group>";
@@ -137,6 +156,13 @@
 			children = (
 				8A19167D21EC038300170F6A /* MedicalData.swift */,
 				8A19167F21EC044100170F6A /* Patient.swift */,
+				A02C3F912232D901000C1426 /* MedicalDataType.swift */,
+				A02C3F932232DF40000C1426 /* Meal.swift */,
+				A02C3F952232E405000C1426 /* Food.swift */,
+				A02C3F972232E4EC000C1426 /* FoodAmount.swift */,
+				A02C3F992232E977000C1426 /* Reminder.swift */,
+				A02C3F9B2232EA07000C1426 /* Glycemia.swift */,
+				A0404DE52236ACE100E6BD90 /* MealType.swift */,
 			);
 			name = Model;
 			path = Classes/Model;
@@ -177,6 +203,7 @@
 		8A19167C21EC030000170F6A /* Calculos */ = {
 			isa = PBXGroup;
 			children = (
+				A02C3F9D2232EB94000C1426 /* CalculateInsulin.swift */,
 			);
 			name = Calculos;
 			path = Classes/Calculos;
@@ -343,7 +370,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-diabetes-mais-doce/Pods-diabetes-mais-doce-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-diabetes-mais-doce/Pods-diabetes-mais-doce-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -354,7 +381,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-diabetes-mais-doce/Pods-diabetes-mais-doce-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-diabetes-mais-doce/Pods-diabetes-mais-doce-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -365,10 +392,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A19168021EC044100170F6A /* Patient.swift in Sources */,
+				A02C3F922232D901000C1426 /* MedicalDataType.swift in Sources */,
+				A02C3F942232DF40000C1426 /* Meal.swift in Sources */,
 				8A19167E21EC038300170F6A /* MedicalData.swift in Sources */,
 				8A19165621EC022A00170F6A /* ViewController.swift in Sources */,
+				A02C3F9E2232EB94000C1426 /* CalculateInsulin.swift in Sources */,
+				A02C3F962232E405000C1426 /* Food.swift in Sources */,
+				A02C3F9C2232EA07000C1426 /* Glycemia.swift in Sources */,
+				A0404DE62236ACE100E6BD90 /* MealType.swift in Sources */,
+				A02C3F982232E4EC000C1426 /* FoodAmount.swift in Sources */,
 				8A19165C21EC022A00170F6A /* diabetes_mais_doce.xcdatamodeld in Sources */,
 				8A19165421EC022A00170F6A /* AppDelegate.swift in Sources */,
+				A02C3F9A2232E977000C1426 /* Reminder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,7 +411,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A19166C21EC022D00170F6A /* diabetes_mais_doceTests.swift in Sources */,
+				A0404DEA2236AD5A00E6BD90 /* MealTests.swift in Sources */,
+				A0404DE82236AD4B00E6BD90 /* CalculateInsulinTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

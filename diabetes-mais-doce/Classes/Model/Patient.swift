@@ -21,8 +21,24 @@ struct Patient {
     let height: Double
     let sex: Sex
     let typeDiabetes: TypeDiabetes
-    let insulinContinuous: MedicalData
+    let insulinContinuous: MedicalData?
     let insulinCorrection: MedicalData
-    let bloodGlucose: MedicalData
-    let correctionFactor: MedicalData
+    let bloodGlucose: MedicalData?
+    let correctionFactor: MedicalData?
+}
+
+extension Patient {
+    static func mock() -> Patient {
+        return Patient(id: 0,
+                       name: "Ned Stark",
+                       idade: 59,
+                       weight: 85,
+                       height: 1.79,
+                       sex: .male,
+                       typeDiabetes: .type1,
+                       insulinContinuous: nil,
+                       insulinCorrection: MedicalData.mock(),
+                       bloodGlucose: nil,
+                       correctionFactor: nil)
+    }
 }
